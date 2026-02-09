@@ -16,10 +16,10 @@ function Navbar() {
   const navLinks = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
-    { name: 'Dates', href: '#dates' },
+    { name: 'Speakers', href: '#speakers' },
     { name: 'Topics', href: '#topics' },
+    { name: 'Gallery', href: '#gallery' },
     { name: 'Venue', href: '#venue' },
-    { name: 'Registration', href: '#registration' },
     { name: 'Contact', href: '#contact' }
   ]
 

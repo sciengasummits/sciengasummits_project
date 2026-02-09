@@ -5,6 +5,15 @@ function About() {
     <section id="about" className="section about-section">
       <div className="about-container">
         <h2 className="section-title">📌 About the Summit</h2>
+        
+        <div className="about-image-banner">
+          <img 
+            src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80" 
+            alt="Conference attendees networking"
+            className="about-banner-img"
+          />
+        </div>
+
         <div className="about-content">
           <p>
             The <strong>Global Summit on Power Energy and Electrical Engineering</strong> is designed to 

@@ -37,10 +37,11 @@ function Venue() {
             </div>
           </div>
           <div className="venue-image">
-            <div className="venue-placeholder">
-              <div className="venue-placeholder-icon">🏙️</div>
-              <p>Munich Skyline</p>
-            </div>
+            <img 
+              src="https://images.unsplash.com/photo-1595867818082-083862f3d630?w=800&q=80" 
+              alt="Munich cityscape"
+              className="venue-img"
+            />
           </div>
         </div>
       </div>

@@ -59,28 +59,17 @@
   align-items: center;
 }
 
-.venue-placeholder {
+.venue-img {
   width: 100%;
-  aspect-ratio: 4/3;
-  background: rgba(255, 255, 255, 0.1);
+  height: 100%;
+  object-fit: cover;
   border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  backdrop-filter: blur(10px);
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  transition: transform 0.5s;
 }
 
-.venue-placeholder-icon {
-  font-size: 5rem;
-  margin-bottom: 15px;
-}
-
-.venue-placeholder p {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin: 0;
+.venue-img:hover {
+  transform: scale(1.05);
 }
 
 @media (max-width: 968px) {
