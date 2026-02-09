@@ -1,0 +1,127 @@
+.venue-page {
+  padding-top: 70px;
+}
+
+.venue-hero {
+  background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.venue-hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.venue-hero-content p {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.venue-section {
+  background: linear-gradient(to bottom, var(--light-bg) 0%, white 100%);
+}
+
+.venue-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.venue-image-banner {
+  margin-bottom: 50px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.venue-banner-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.venue-banner-img:hover {
+  transform: scale(1.05);
+}
+
+.venue-content p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--text-light);
+  margin-bottom: 40px;
+}
+
+.venue-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.venue-feature {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s;
+}
+
+.venue-feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.venue-feature h3 {
+  color: var(--primary-green);
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.venue-feature p {
+  color: var(--text-light);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.venue-announcement {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  border: 2px solid var(--light-green);
+}
+
+.venue-announcement p {
+  font-size: 1.2rem;
+  color: var(--primary-green);
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .venue-hero-content h1 {
+    font-size: 2rem;
+  }
+  
+  .venue-hero-content p {
+    font-size: 1.1rem;
+  }
+  
+  .venue-banner-img {
+    height: 250px;
+  }
+  
+  .venue-features {
+    grid-template-columns: 1fr;
+  }
+}
